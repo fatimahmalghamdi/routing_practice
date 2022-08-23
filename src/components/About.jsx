@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 import { useParams } from 'react-router'
-import Location from './Location';
+
 function About(props){
     const {number} = useParams();
     return (
